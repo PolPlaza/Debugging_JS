@@ -7,7 +7,8 @@ function incrementar() {
     document.getElementById('contador').innerText = contador;
 }
 
+// Función para reiniciar el contador
 function reiniciar() {
-    const contador = 0; 
+    contador = 0;  
     document.getElementById('contador').innerText = contador;
 }
